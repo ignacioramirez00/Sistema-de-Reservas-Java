@@ -1,4 +1,4 @@
-package Errores;
+package exceptions;
 
 public class InstanciaNoEncontradaException extends RuntimeException {
 

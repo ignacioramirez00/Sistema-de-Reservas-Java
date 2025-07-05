@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import Empleado.Empleado;
-import Errores.InstanciaNoEncontradaException;
-import Errores.NoExistenSalasException;
-import Errores.Mensajes.MensajesError;
 import Reserva.Reserva;
 import Sala.Sala;
 import Validaciones.Validacion;
+import exceptions.InstanciaNoEncontradaException;
+import exceptions.NoExistenSalasException;
+import exceptions.Mensajes.MensajesError;
 
 public class SistemaGestor {
 

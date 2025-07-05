@@ -4,7 +4,7 @@ package Validaciones;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import Errores.Mensajes.MensajesError;
+import exceptions.Mensajes.MensajesError;
 
 public class Validacion {
 

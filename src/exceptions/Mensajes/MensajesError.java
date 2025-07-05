@@ -1,4 +1,4 @@
-package Errores.Mensajes;
+package exceptions.Mensajes;
 
 public class MensajesError {
     public static final String HORARIO_INVALIDO = "La hora de inicio debe ser anterior a la hora de fin.";

@@ -21,7 +21,6 @@ Este proyecto es una aplicación Java orientada a objetos para gestionar reserva
 1. Cloná este repositorio:
 
 ````markdown
-   ```bash
    git clone https://github.com/tu-usuario/sistema-reservas.git
    cd sistema-reservas
 ````
@@ -119,6 +118,3 @@ sistema.realizarCancelacion(
 
 
 
-
-Este proyecto está bajo la licencia MIT.
-Hecho con ❤️ por Ignacio Ramírez.

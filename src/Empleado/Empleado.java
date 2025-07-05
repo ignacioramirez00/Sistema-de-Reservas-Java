@@ -2,12 +2,12 @@ package Empleado;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import Errores.OperacionNoAutorizadaException;
-import Errores.ReservaSolapadaException;
-import Errores.Mensajes.MensajesError;
 import Reserva.Reserva;
 import Sala.Sala;
 import Validaciones.Validacion;
+import exceptions.OperacionNoAutorizadaException;
+import exceptions.ReservaSolapadaException;
+import exceptions.Mensajes.MensajesError;
 
 public class Empleado {
 

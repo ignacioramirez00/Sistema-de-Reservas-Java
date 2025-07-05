@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import Errores.InstanciaNoEncontradaException;
-import Errores.InstanciaRepetidaException;
-import Errores.Mensajes.MensajesError;
 import Reserva.Reserva;
 import Validaciones.Validacion;
+import exceptions.InstanciaNoEncontradaException;
+import exceptions.InstanciaRepetidaException;
+import exceptions.Mensajes.MensajesError;
 
 public class Sala {
 
