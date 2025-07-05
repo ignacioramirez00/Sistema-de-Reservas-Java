@@ -1,4 +1,3 @@
-````markdown
 # 📅 Sistema de Gestión de Reservas de Salas
 
 Este proyecto es una aplicación Java orientada a objetos para gestionar reservas de salas. Permite:
@@ -9,7 +8,7 @@ Este proyecto es una aplicación Java orientada a objetos para gestionar reserva
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Java 17 o superior
 - IDE (recomendado: IntelliJ IDEA, Eclipse o VS Code con soporte Java)
@@ -17,9 +16,11 @@ Este proyecto es una aplicación Java orientada a objetos para gestionar reserva
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Cloná este repositorio:
+
+````markdown
    ```bash
    git clone https://github.com/tu-usuario/sistema-reservas.git
    cd sistema-reservas
@@ -31,7 +32,7 @@ Este proyecto es una aplicación Java orientada a objetos para gestionar reserva
 
 ---
 
-## ✨ Funcionalidades principales
+## Funcionalidades principales
 
 ### 1. 📌 Realizar una reserva
 
@@ -117,7 +118,7 @@ sistema.realizarCancelacion(
 ❌ Lanza `InstanciaNoEncontradaException` si la reserva no existe.
 
 
-## 📄 Licencia
+
 
 Este proyecto está bajo la licencia MIT.
 Hecho con ❤️ por Ignacio Ramírez.
