@@ -2,9 +2,9 @@
 
 Este proyecto es una aplicación Java orientada a objetos para gestionar reservas de salas. Permite:
 
-- ✅ Registrar reservas para salas específicas.
-- 🔎 Consultar disponibilidad de salas.
-- ❌ Cancelar reservas ya creadas.
+- Registrar reservas para salas específicas.
+- Consultar disponibilidad de salas.
+- Cancelar reservas ya creadas.
 
 ---
 
@@ -33,7 +33,7 @@ Este proyecto es una aplicación Java orientada a objetos para gestionar reserva
 
 ## Funcionalidades principales
 
-### 1. 📌 Realizar una reserva
+### 1. Realizar una reserva
 
 Permite a un empleado registrar una reserva si la sala está disponible en el horario solicitado.
 
@@ -43,7 +43,7 @@ public void realizarReserva(LocalDate fecha, LocalDateTime horaInicio, LocalDate
 
 ---
 
-### 2. 🔍 Consultar salas disponibles
+### 2. Consultar salas disponibles
 
 Muestra todas las salas que están disponibles en un rango de fecha y hora.
 
@@ -53,7 +53,7 @@ public List<Sala> consultarSalasDisponibles(LocalDate fecha, LocalDateTime horaI
 
 ---
 
-### 3. ❌ Cancelar una reserva
+### 3. Cancelar una reserva
 
 Permite que un empleado cancele una reserva que él mismo creó.
 
@@ -63,9 +63,9 @@ public void realizarCancelacion(Long idReserva, Long idEmpleado)
 
 ---
 
-## 🧾 Ejemplos de uso
+## Ejemplos de uso
 
-### 1. 📌 Realizar una reserva
+### 1. Realizar una reserva
 
 ```java
 SistemaGestor sistema = new SistemaGestor();
@@ -84,7 +84,7 @@ sistema.realizarReserva(
 
 ---
 
-### 2. 🔍 Consultar salas disponibles
+### 2. Consultar salas disponibles
 
 ```java
 List<Sala> disponibles = sistema.consultarSalasDisponibles(
