@@ -103,7 +103,7 @@ for (Sala sala : disponibles) {
 
 ---
 
-### 3. ❌ Cancelar una reserva
+### 3. Cancelar una reserva
 
 ```java
 sistema.realizarCancelacion(
